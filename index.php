@@ -5,6 +5,10 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
+	//this is another test by dj+6@programmr.com
+	//machine launched from new instance
+	echo $_SERVER;
+	
 	
 }
 // delete condition
